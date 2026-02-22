@@ -1,0 +1,2 @@
+LeetCode Solutions: C++ Workspace
+The goal of this project is to provide a structured C++ environment in Visual Studio for solving LeetCode problems. By leveraging Google Test (gtest), this setup manages multiple algorithm implementations and automated unit tests within a single unified project.
