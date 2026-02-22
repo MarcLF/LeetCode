@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5bf8edf5-f028-4e87-a376-00e5a483ed8e}</ProjectGuid>
+    <ProjectGuid>{9061C0A6-521B-DAF9-A0A8-B66673326FAB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <ConfigurationType>Application</ConfigurationType>
@@ -100,9 +100,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="P100\P100_SameTree.h" />
     <ClInclude Include="P1\P1_TwoSum.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="P100\P100_SameTree.cpp" />
+    <ClCompile Include="P100\P100_SameTree_Test.cpp" />
     <ClCompile Include="P1\P1_TwoSum_Test.cpp">
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </PrecompiledHeaderFile>
