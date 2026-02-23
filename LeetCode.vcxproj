@@ -105,6 +105,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="P100\P100_SameTree.h" />
+    <ClInclude Include="P125\P125_ValidPalindrome.h" />
     <ClInclude Include="P230\P230_SmallestElement.h" />
     <ClInclude Include="PC1\PC1_SkyArray.h" />
     <ClInclude Include="P1\P1_TwoSum.h" />
@@ -114,6 +115,8 @@
   <ItemGroup>
     <ClCompile Include="P100\P100_SameTree.cpp" />
     <ClCompile Include="P100\P100_SameTree_Test.cpp" />
+    <ClCompile Include="P125\P125_ValidPalindrome.cpp" />
+    <ClCompile Include="P125\P125_ValidPalindrome_Test.cpp" />
     <ClCompile Include="P230\P230_SmallestElement.cpp" />
     <ClCompile Include="P230\P230_SmallestElement_Test.cpp" />
     <ClCompile Include="PC1\PC1_SkyArray.cpp" />
@@ -135,6 +138,7 @@
     <ClCompile Include="PC3\PC3_BalancedNodes_Test.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="agent_prompt_newproblem.md" />
     <None Include="packages.config" />
     <None Include="readme.md" />
   </ItemGroup>
