@@ -43,6 +43,7 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
+      <LanguageStandard>stdcpp23</LanguageStandard>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -59,6 +60,7 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
+      <LanguageStandard>stdcpp23</LanguageStandard>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -74,6 +76,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard>stdcpp23</LanguageStandard>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -91,6 +94,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard>stdcpp23</LanguageStandard>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -101,11 +105,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="P100\P100_SameTree.h" />
+    <ClInclude Include="P230\P230_SmallestElement.h" />
+    <ClInclude Include="PC1\PC1_SkyArray.h" />
     <ClInclude Include="P1\P1_TwoSum.h" />
+    <ClInclude Include="PC2\PC2_BiggestSquare.h" />
+    <ClInclude Include="PC3\PC3_BalancedNodes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P100\P100_SameTree.cpp" />
     <ClCompile Include="P100\P100_SameTree_Test.cpp" />
+    <ClCompile Include="P230\P230_SmallestElement.cpp" />
+    <ClCompile Include="P230\P230_SmallestElement_Test.cpp" />
+    <ClCompile Include="PC1\PC1_SkyArray.cpp" />
+    <ClCompile Include="PC1\PC1_SkyArray_Test.cpp" />
     <ClCompile Include="P1\P1_TwoSum_Test.cpp">
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </PrecompiledHeaderFile>
@@ -117,6 +129,10 @@
       </PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="P1\P1_TwoSum.cpp" />
+    <ClCompile Include="PC2\PC2_BiggestSquare.cpp" />
+    <ClCompile Include="PC2\PC2_BiggestSquare_Test.cpp" />
+    <ClCompile Include="PC3\PC3_BalancedNodes.cpp" />
+    <ClCompile Include="PC3\PC3_BalancedNodes_Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
