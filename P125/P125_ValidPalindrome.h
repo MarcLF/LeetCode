@@ -6,8 +6,7 @@ namespace problem125
 	class ValidPalindrome
 	{
 		public:
-		static bool isPalindrome(std::string s);
-		static bool isPalindromeInPlace(std::string s);
-
+		static bool isPalindrome(std::string str);
+		static bool isPalindromeInPlace(std::string str);
 	};
 }

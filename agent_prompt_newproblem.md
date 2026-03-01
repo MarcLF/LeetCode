@@ -6,6 +6,6 @@ Create a Header file P{Number}_{ClassName}.h inside that folder. Include a #prag
 
 Create a Source file P{Number}_{ClassName}.cpp. Include the header and wrap it in the same namespace. Do not write any logic.
 
-Create a Test file _Test.cpp. Include gtest/gtest.h and the header. Create a TEST macro for BasicTest.
+Create a Test file P{Number}_{ClassName}_Test.cpp. Include gtest/gtest.h and the header. Create a TEST macro for BasicTest.
 
 Constraint: Never attempt to solve the LeetCode problem. Only provide the empty skeleton files and the folder structure.

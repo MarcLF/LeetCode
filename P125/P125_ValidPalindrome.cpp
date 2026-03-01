@@ -53,13 +53,13 @@ namespace problem125
 		while (left < right)
 		{
 			// Move left pointer forward until an alphanumeric character is found
-			while (left < right && std::isalnum(static_cast<unsigned char>(str[left]) == false))
+			while (left < right && std::isalnum(static_cast<unsigned char>(str[left])) == false)
 			{
 				left++;
 			}
 
 			// Move right pointer backward until an alphanumeric character is found
-			while (left < right && std::isalnum(static_cast<unsigned char>(str[right]) == false))
+			while (left < right && std::isalnum(static_cast<unsigned char>(str[right])) == false)
 			{
 				right--;
 			}
