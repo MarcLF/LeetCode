@@ -14,7 +14,7 @@ namespace probcustom1
 		std::iota(indices.begin(), indices.end(), 0);
 
 		// Process the tallest potential buildings first.
-		std::sort(indices.begin(), indices.end(), [max_heights](int i, int j)
+		std::sort(indices.begin(), indices.end(), [&max_heights](int i, int j)
 			{
 				return max_heights[i] > max_heights[j];
 			});
