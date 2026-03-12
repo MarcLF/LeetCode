@@ -109,6 +109,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="P100\P100_SameTree.h" />
+    <ClInclude Include="P1115\P1115_FooBar.h" />
     <ClInclude Include="P125\P125_ValidPalindrome.h" />
     <ClInclude Include="P153\P153_SortedArray.h" />
     <ClInclude Include="P217\P217_ContainsDuplicate.h" />
@@ -121,6 +122,8 @@
   <ItemGroup>
     <ClCompile Include="P100\P100_SameTree.cpp" />
     <ClCompile Include="P100\P100_SameTree_Test.cpp" />
+    <ClCompile Include="P1115\P1115_FooBar.cpp" />
+    <ClCompile Include="P1115\P1115_FooBar_Test.cpp" />
     <ClCompile Include="P125\P125_ValidPalindrome.cpp" />
     <ClCompile Include="P125\P125_ValidPalindrome_Test.cpp" />
     <ClCompile Include="P153\P153_SortedArray.cpp" />
